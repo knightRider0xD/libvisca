@@ -534,8 +534,10 @@ VISCA_close_serial(VISCAInterface_t *iface);
 uint32_t
 VISCA_set_power(VISCAInterface_t *iface, VISCACamera_t *camera, uint8_t power);
 
+/* This command isn't implemented in livbvisca.c
 uint32_t
 VISCA_get_info(VISCAInterface_t *iface, VISCACamera_t *camera);
+*/
 
 uint32_t
 VISCA_set_keylock(VISCAInterface_t *iface, VISCACamera_t *camera, uint8_t power);
